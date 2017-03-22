@@ -6,7 +6,7 @@ const woofwoof = require('woofwoof');
 
 const cli = woofwoof(`
     Usage
-    $ hello <input>
+    $ greeting <input>
 
     Options
     --name, -n  Who should I greet
@@ -15,12 +15,12 @@ const cli = woofwoof(`
     alias: {
         n: 'name'
     }, default: {
-        name: "world"
+        name: "World!"
     }
 });
 
 function hello(input,flags) {
-    console.log("hello "+flags.name);
+    console.log(`Hello ${flags.name}!`);
 }
 
 

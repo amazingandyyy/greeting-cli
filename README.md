@@ -1,5 +1,5 @@
 # Greeting CLI
-A cli tool to say hello to someone
+A cli tool to greet to anyone
 
 ## Intallation
 ```command
@@ -13,28 +13,28 @@ If this is your firt time of using. Please make sure to restart your terminal to
 - Default
 ```
 // input
-$ hello
+$ greeting
 
 // output
-$ hello world
+$ Hello world!
 ```
 
 - Add `--name` flag
 ```
 // input
-$ hello --name Andyyy
+$ greeting --name Andyyy
 
 // output
-$ hello Andyyy
+$ Hello Andyyy!
 ```
 
 - or use minimun `-n` flag
 ```
 // input
-$ hello -n Andy
+$ greeting -n Andy
 
 // output
-$ hello Andy
+$ Hello Andy!
 ```
 
 ## About
