@@ -1,6 +1,6 @@
 {
   "name": "greeting-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A cli tool to say hi",
   "main": "index.js",
   "scripts": {
