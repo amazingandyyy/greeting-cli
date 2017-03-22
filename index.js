@@ -5,7 +5,6 @@
 const woofwoof = require('woofwoof');
 var chalk = require('chalk');
 var figlet = require('figlet');
-var clear       = require('clear');
 
 const cli = woofwoof(`
     Usage
@@ -23,8 +22,7 @@ const cli = woofwoof(`
     }
 });
 
-clear();
-console.log(chalk.yellow(figlet.textSync('Greeting', {horizontalLayout: 'full'})));
+console.log(chalk.yellow(figlet.textSync('Greeting!', {horizontalLayout: 'full'})));
 
 function hello(input, flags) {
     console.log(`Hello ${flags.name}!`);
