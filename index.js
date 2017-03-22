@@ -3,6 +3,8 @@
 'use strict';
 
 const woofwoof = require('woofwoof');
+var chalk = require('chalk');
+var figlet = require('figlet');
 
 const cli = woofwoof(`
     Usage
@@ -14,14 +16,17 @@ const cli = woofwoof(`
 `, {
     alias: {
         n: 'name'
-    }, default: {
+    },
+    default: {
         name: "World!"
     }
 });
 
-function hello(input,flags) {
+clear();
+console.log(chalk.yellow(figlet.textSync('Greeting', {horizontalLayout: 'full'})));
+
+function hello(input, flags) {
     console.log(`Hello ${flags.name}!`);
 }
-
 
 hello(cli.input[0], cli.flags);
