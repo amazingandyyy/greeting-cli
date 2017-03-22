@@ -5,6 +5,7 @@
 const woofwoof = require('woofwoof');
 var chalk = require('chalk');
 var figlet = require('figlet');
+var clear       = require('clear');
 
 const cli = woofwoof(`
     Usage

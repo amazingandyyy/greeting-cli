@@ -58,6 +58,10 @@ chalk:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
+clear:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/clear/-/clear-0.0.1.tgz#e5186e229d99448179c130311b6f9d30bff6b0ba"
+
 cliui@^3.0.3:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-3.2.0.tgz#120601537a916d29940f934da3b48d585a39213d"
