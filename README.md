@@ -1,4 +1,4 @@
-# Greeting CLI
+# greeting CLI
 A cli tool to greet to anyone
 
 ## Intallation
@@ -6,14 +6,13 @@ A cli tool to greet to anyone
 $ npm i -g greeting-cli
 ```
 
-
 ## Usage
 If this is your firt time of using. Please make sure to restart your terminal to try.
 
 - Default
 ```
 // input
-$ greeting
+$ greet
 
 // output
 $ Hello world!
@@ -22,7 +21,7 @@ $ Hello world!
 - Add `--name` flag
 ```
 // input
-$ greeting --name Andyyy
+$ greet --name Andyyy
 
 // output
 $ Hello Andyyy!
@@ -31,7 +30,7 @@ $ Hello Andyyy!
 - or use minimun `-n` flag
 ```
 // input
-$ greeting -n Andy
+$ greet -n Andy
 
 // output
 $ Hello Andy!

@@ -6,7 +6,7 @@ const woofwoof = require('woofwoof');
 
 const cli = woofwoof(`
     Usage
-    $ greeting <input>
+    $ greet <input>
 
     Options
     --name, -n  Who should I greet
